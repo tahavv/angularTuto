@@ -1,0 +1,7 @@
+<p>hela is here {{ x }}</p>
+
+<div>
+  <h1 *ngIf="x > 0; else error">Success</h1>
+</div>
+
+<ng-template #error><h1>Error</h1></ng-template>
